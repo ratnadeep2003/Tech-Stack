@@ -1,0 +1,10 @@
+Date: 7/11/2026
+Difference between a macro and a function:
+println!("Hello, world!");-> here the ! means println is calling a rust macro.
+The command to compile a rust program is : 
+                PS D:\Tech-Stack\Rust\Projects\hello_world> rustc .\main.rs
+                PS D:\Tech-Stack\Rust\Projects\hello_world> .\main
+                hello world
+                PS D:\Tech-Stack\Rust\Projects\hello_world> 
+
+This shows the source code file with the .rs extension, the executable file (main.exe on Windows, but main on all other platforms), and, when using Windows, a file containing debugging information with the .pdb extension. From here, you run the main or main.exe file, like this: .\main-> which prints 'hello world' as output. 
