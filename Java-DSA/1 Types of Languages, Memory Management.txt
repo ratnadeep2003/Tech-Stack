@@ -1,0 +1,9 @@
+Types of languages: Procedural, Functional, Object Oriented 
+
+Static vs Dynamic languages
+
+
+when we write 'Integer a=10' -> this creates a wrapper around 'a'
+'a' is stored in stack and 10 is stored in heap, where a from stack will point to address of 10 in heap
+
+
