@@ -1,0 +1,181 @@
+================================================================================
+DSA MASTER ROADMAP (HIGHEST TO LOWEST PRIORITY) + FAANG TOPIC PROBABILITIES
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1: DSA TOPIC LIST (ORDERED FROM HIGHEST TO LOWEST PRIORITY)
+--------------------------------------------------------------------------------
+
+[PRIORITY 1] CORE DAILY PRACTICE (~85% of interviews — Master Cold)
+--------------------------------------------------------------------------------
+1. Arrays, Strings & Matrices
+   - Subarrays, rotations, spiral/diagonal traversal, in-place manipulation
+   - String matching basics, palindromes, StringBuilder patterns
+
+2. Hashing (Frequency Maps & Prefix-Sum Maps)
+   - Two-sum variants, anagrams, subarray sum equals K, longest consecutive seq
+
+3. Two Pointers, Sliding Window, Prefix Sums & Kadane
+   - Fixed & variable sliding windows, 3Sum/4Sum, trapping rain water
+   - 1D/2D prefix sums, difference arrays (range updates), Kadane's algorithm
+
+4. Binary Search
+   - Classic sorted search, lower/upper bound, rotated sorted arrays
+   - Binary search on answer (monotonic predicate problems)
+
+5. Trees & Binary Search Trees (BST)
+   - Preorder/Inorder/Postorder (recursive & iterative), BFS / Level-order
+   - Height, Diameter, Max Path Sum, LCA basics, BST validation/search
+   - Tree construction from traversals, Serialize & Deserialize
+
+6. Graphs (Core)
+   - BFS (including Multi-source BFS & 0-1 BFS), DFS
+   - Cycle detection (directed 3-color / Kahn's; undirected parent / DSU)
+   - Bipartite check (2-coloring)
+   - Topological Sort (Kahn's BFS & DFS)
+   - Dijkstra's Shortest Path
+   - Disjoint Set Union (DSU / Union-Find with path compression & rank)
+
+7. Heaps / Priority Queue
+   - Top-K elements, K-way merge, K closest points
+   - Two-heap pattern (Median of a data stream), task scheduling
+
+8. Stack, Queue & Monotonic Stack/Queue
+   - Valid parentheses, expression evaluation, MinStack
+   - Next Greater/Smaller Element, Largest Rectangle in Histogram
+   - Sliding Window Maximum (monotonic deque)
+
+9. Recursion & Backtracking
+   - Subsets, permutations, combinations, N-Queens, Word Search, Sudoku
+
+10. Dynamic Programming (Core)
+    - 1D DP (climbing stairs, house robber, decode ways, word break)
+    - 2D / Grid DP (unique paths, min path sum)
+    - Knapsack (0/1, unbounded, subset sum / partition equal subset)
+    - Subsequence & String DP (LCS, LIS O(n log n), Edit Distance, Palindromes)
+    - State-machine DP (Best Time to Buy & Sell Stock variants)
+
+11. Greedy & Intervals
+    - Merge intervals, insert interval, non-overlapping intervals
+    - Jump game, gas station, activity selection
+
+12. Linked Lists
+    - Reversal (full & k-group), Floyd's cycle detection & entry point
+    - Merge sorted lists, middle node, copy list with random pointer
+
+13. Design & Practical Data Structures
+    - LRU Cache, LFU Cache
+    - Insert/Delete/GetRandom O(1), Time-Based Key-Value Store, Design HashMap
+
+14. Sorting & Quickselect
+    - Merge sort, quicksort intuition, custom Comparators
+    - Quickselect (Kth largest/smallest in O(n) average), counting/bucket sort
+
+
+[PRIORITY 2] HIGH-ROI TIER 2 (Solve 4-8 quality problems each)
+--------------------------------------------------------------------------------
+15. Trie (Prefix Tree)
+    - Insert/Search/StartsWith, Word Search II, autocomplete, XOR Trie
+
+16. Bit Manipulation
+    - XOR tricks (Single Number I/II/III), bitmasks for subsets, power of 2
+    - Counting bits, Brian Kernighan's algorithm
+
+17. Sweep Line
+    - Meeting Rooms II, Skyline problem, overlapping event counting
+
+18. Minimum Spanning Tree (MST)
+    - Kruskal's (pairs directly with DSU) & Prim's algorithm
+
+19. Divide & Conquer
+    - Inversion count (merge sort), maximum subarray D&C, Karatsuba intuition
+
+
+[PRIORITY 3] LOWER-ROI TIER 2 (Solve 1-3 problems; mostly OA / rare follow-ups)
+--------------------------------------------------------------------------------
+20. DP on Trees
+    - House Robber III, basic tree DP (rerooting DP only if extra time)
+
+21. Bellman-Ford & Floyd-Warshall
+    - Cheapest Flights Within K Stops (Bellman-Ford), all-pairs shortest path
+
+22. Bitmask DP
+    - Traveling Salesman / small N (N <= 15) state compression (mostly OAs)
+
+23. Sieve, GCD & Combinatorics
+    - Sieve of Eratosthenes, Euclidean GCD, modular exponentiation, nCr % p
+
+
+[PRIORITY 4] TIER 3 — REVISE ONLY (GATE background; keep warm for OAs/Google)
+--------------------------------------------------------------------------------
+24. String Matching: KMP, Rabin-Karp, Aho-Corasick
+25. Range Queries: Segment Tree, Fenwick Tree (Binary Indexed Tree)
+26. Advanced Graphs: Tarjan's / Kosaraju's (SCC, Bridges, Articulation Points)
+27. Tree Advanced: Binary Lifting LCA
+28. Conceptual Only: AVL / Red-Black Trees, Skip List
+
+
+================================================================================
+PART 2: COMPANY-WISE QUESTION PROBABILITY BREAKDOWN
+================================================================================
+Note: Percentages below are approximate historical SWE interview estimates
+(not official company data). Many interview questions blend 2+ patterns
+(for example: Graph + Heap, Tree + DFS, or String + Hashing).
+
+
+1. GOOGLE
+--------------------------------------------------------------------------------
+Focus: Disguised graph/tree problems, clean optimal complexity, edge cases,
+       follow-up scaling constraints, and strong DSA fundamentals.
+
+  - Graphs (BFS/DFS, Topo Sort, Dijkstra, DSU, Multi-source BFS) ... ~25% (Very High)
+  - Trees & Trie (DFS/BFS, LCA, Prefix Trie, Serialize) ............ ~18% (High)
+  - Dynamic Programming (1D/2D, State DP, Graph/Tree DP) ........... ~18% (High)
+  - Arrays, Strings, Sliding Window, Prefix Sums & Hashing ......... ~15% (High)
+  - Intervals, Sweep Line & Greedy ................................. ~10% (Medium-High)
+  - Binary Search (Search on Answer) & Divide/Conquer .............. ~8%  (Medium)
+  - Design (LRU, Time-KV, Custom DS) & Heaps ....................... ~6%  (Medium)
+  * OA / Rare Hard Bonus: Segment Tree, Fenwick, Binary Lifting, Bitmask DP.
+
+
+2. META
+--------------------------------------------------------------------------------
+Focus: High speed & accuracy (typically 2 Mediums in ~35-40 mins), clean code,
+       dry-running test cases. Very light on exotic DP.
+
+  - Arrays, Strings, Two Pointers, Sliding Window & Prefix Sums .... ~28% (Very High)
+  - Trees & BST (Traversals, LCA, BFS, Diameter, Serialization) .... ~22% (Very High)
+  - Hashing (Frequency & Subarray Sum Maps) ........................ ~15% (High)
+  - Graphs (BFS/DFS, Grid Shortest Path, Topo Sort, DSU) ........... ~12% (Medium-High)
+  - Binary Search (Rotated, Peak, Search on Answer) & Heaps ........ ~12% (Medium-High)
+  - Stack / Monotonic Stack & Linked Lists ......................... ~7%  (Medium)
+  - Design (LRU, RandomPick/RandomizedSet) & Backtracking .......... ~4%  (Low-Medium)
+  * Note: Pure DP is noticeably less frequent in live Meta rounds than Google.
+
+
+3. AMAZON
+--------------------------------------------------------------------------------
+Focus: Practical problem solving, Trees/Graphs, OOP & clean maintainable
+       classes, plus Leadership Principles alongside coding.
+
+  - Trees & Graphs (BFS/DFS, Topo Sort, Dijkstra, Grid, LCA) ....... ~25% (Very High)
+  - Arrays, Strings, Sliding Window, Two Pointers & Hashing ........ ~22% (Very High)
+  - Heaps / PriorityQueue (Top-K, K-way merge) & Greedy/Intervals .. ~16% (High)
+  - Design & OOP Coding (LRU/LFU, Parking Lot, File Search, Stack) . ~14% (High)
+  - Dynamic Programming (1D/2D, Knapsack, Word Break, House Robber). ~10% (Medium)
+  - Stack/Queue (Monotonic Stack), Binary Search, Linked Lists, Trie ~13% (Medium)
+
+
+4. APPLE
+--------------------------------------------------------------------------------
+Focus: Solid fundamentals, clean bug-free code, data structure design, and
+       team-dependent systems/bit-level awareness.
+
+  - Arrays, Strings, Matrices & Hashing ............................ ~25% (Very High)
+  - Trees, BST & Linked Lists (Traversals, Reversal, Merge, LCA) ... ~20% (High)
+  - Design & Practical OOP (LRU Cache, Rate Limiter, Iterators) .... ~16% (High)
+  - Graphs (BFS/DFS, Topo Sort) & Recursion/Backtracking ........... ~14% (Medium-High)
+  - Stack/Queue, Heaps & Binary Search ............................. ~13% (Medium)
+  - Dynamic Programming (1D/2D, Edit Distance) & Bit Manipulation .. ~12% (Medium)
+  * Note: Bit Manipulation & memory/pointer awareness appear more often on
+    Apple OS / firmware / systems-adjacent teams.

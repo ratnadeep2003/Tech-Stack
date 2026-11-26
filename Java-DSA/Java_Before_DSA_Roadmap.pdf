@@ -1,0 +1,863 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [7 0 R 9 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Length 7033 >>
+stream
+BT
+/F2 20 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 48.00 789.89 Tm
+(Core Java Roadmap Before DSA) Tj
+ET
+BT
+/F1 9.5 Tf
+0.300 0.360 0.450 rg
+1 0 0 1 48.00 769.89 Tm
+(Continuation after Notes 1-6: Memory Management, JVM Execution, Types & Casting, Conditionals/Loops, and) Tj
+ET
+BT
+/F1 9.5 Tf
+0.300 0.360 0.450 rg
+1 0 0 1 48.00 756.89 Tm
+(Methods/Recursion.) Tj
+ET
+q
+0.150 0.390 0.920 RG
+2 w
+48.00 739.89 m 547.28 739.89 l S
+Q
+q
+0.960 0.970 0.990 rg
+48.00 677.89 499.28 55.50 re
+f
+Q
+q
+0.150 0.390 0.920 rg
+48.00 677.89 3.50 55.50 re
+f
+Q
+BT
+/F1 9.5 Tf
+0.150 0.210 0.300 rg
+1 0 0 1 60.00 718.89 Tm
+(Reality Check on "Entire Java": The full Java ecosystem is massive \(concurrency, networking, JDBC,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.210 0.300 rg
+1 0 0 1 60.00 705.39 Tm
+(reflection, GUI, Spring, etc.\), and most of it is not used in DSA. This roadmap covers everything in Core) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.210 0.300 rg
+1 0 0 1 60.00 691.89 Tm
+(Java you need to master before jumping cleanly into DSA.) Tj
+ET
+BT
+/F2 13.5 Tf
+0.120 0.230 0.540 rg
+1 0 0 1 48.00 659.89 Tm
+(1. Essential Core Java \(Learn These Before DSA\)) Tj
+ET
+q
+0.800 0.840 0.900 RG
+0.8 w
+48.00 653.89 m 547.28 653.89 l S
+Q
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 581.89 499.28 66.00 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 627.89 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 631.39 Tm
+(1) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 631.39 Tm
+(Variable Scope, Shadowing & varargs) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 614.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 614.39 Tm
+(Block, method, and class-level variable scope.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 598.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 598.89 Tm
+(Variable shadowing and variable-length arguments \(int... nums\) syntax.) Tj
+ET
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 489.39 499.28 90.50 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 559.89 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 563.39 Tm
+(2) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 563.39 Tm
+(Arrays & 2D Arrays) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 546.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 546.39 Tm
+(Declaration, initialization, default values, arr.length, and enhanced for-each loops.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 530.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 530.89 Tm
+(Multi-dimensional & jagged arrays \(int[][]\), Arrays.sort\(\), Arrays.fill\(\), Arrays.copyOf\(\).) Tj
+ET
+q
+0.940 0.976 1.000 rg
+60.00 503.89 475.28 20.50 re
+f
+Q
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 514.39 Tm
+(Why for DSA: Foundation of almost every problem \(sliding window, two pointers, matrices, DP tables\).) Tj
+ET
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 381.39 499.28 106.00 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 467.39 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 470.89 Tm
+(3) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 470.89 Tm
+(Strings, StringBuilder & char Manipulation) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 453.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 453.89 Tm
+(String immutability & the String Pool; reference equality \(==\) vs content equality \(.equals\(\)\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 438.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 438.39 Tm
+(Key methods: .charAt\(\), .substring\(\), .toCharArray\(\), .length\(\), .split\(\), .indexOf\(\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 422.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 422.89 Tm
+(StringBuilder \(.append\(\), .reverse\(\), .toString\(\)\) and why + inside loops is O\(n^2\).) Tj
+ET
+q
+0.940 0.976 1.000 rg
+60.00 395.89 475.28 20.50 re
+f
+Q
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 406.39 Tm
+(Why for DSA: String problems are everywhere, and StringBuilder prevents Time Limit Exceeded \(TLE\).) Tj
+ET
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 288.89 499.28 90.50 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 359.39 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 362.89 Tm
+(4) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 362.89 Tm
+(Bitwise Operators & Math Utilities) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 345.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 345.89 Tm
+(Bitwise operators: &, |, ^, ~, <<, >>, >>> \(unsigned right shift\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 330.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 330.39 Tm
+(Integer.MAX_VALUE, Integer.MIN_VALUE, Math.max\(\), Math.min\(\), Math.abs\(\).) Tj
+ET
+q
+0.940 0.976 1.000 rg
+60.00 303.39 475.28 20.50 re
+f
+Q
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 313.89 Tm
+(Why for DSA: Overflow handling, bit manipulation problems, and base/sentinel values in DP & graphs.) Tj
+ET
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 114.39 499.28 172.50 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 266.89 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 270.39 Tm
+(5) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 270.39 Tm
+(Object-Oriented Programming \(OOP\)) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 253.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 253.39 Tm
+(Classes & Objects: fields, constructors \(default & parameterized\), this keyword, static vs instance) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 239.89 Tm
+(members.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 224.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 224.39 Tm
+(4 Pillars \(practical mastery\): Encapsulation \(private fields, getters/setters, access modifiers\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 210.89 Tm
+(Inheritance \(extends, super, overriding\), Polymorphism \(compile-time vs runtime\), and Abstraction) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 197.39 Tm
+(\(abstract classes & interfaces\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 181.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 181.89 Tm
+(Nested / Inner Classes \(especially static class Node\), final keyword, and Object methods \(toString\(\),) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 168.39 Tm
+(equals\(\), hashCode\(\)\).) Tj
+ET
+q
+0.940 0.976 1.000 rg
+60.00 128.89 475.28 33.00 re
+f
+Q
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 151.89 Tm
+(Why for DSA: Needed to implement Linked Lists, Trees, Tries, Graphs, and custom Pair classes using references) Tj
+ET
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 139.39 Tm
+(\(Node next, TreeNode left\).) Tj
+ET
+BT
+/F1 8.5 Tf
+0.450 0.500 0.580 rg
+1 0 0 1 48.00 24.00 Tm
+(Java-DSA Study Notes | Core Java Roadmap Before DSA) Tj
+ET
+BT
+/F1 8.5 Tf
+0.450 0.500 0.580 rg
+1 0 0 1 492.28 24.00 Tm
+(Page 1 of 2) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 6 0 R >>
+endobj
+8 0 obj
+<< /Length 6759 >>
+stream
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 691.89 499.28 106.00 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 777.89 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 781.39 Tm
+(6) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 781.39 Tm
+(Wrapper Classes & Autoboxing) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 764.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 764.39 Tm
+(Integer, Double, Character, Boolean, Long.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 748.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 748.89 Tm
+(Autoboxing/unboxing, Integer.parseInt\(\), Character.isDigit\(\), Character.isLetterOrDigit\(\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 733.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 733.39 Tm
+(Gotcha: comparing Integer objects with == vs .equals\(\).) Tj
+ET
+q
+0.940 0.976 1.000 rg
+60.00 706.39 475.28 20.50 re
+f
+Q
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 716.89 Tm
+(Why for DSA: Java Generics and Collections do not accept primitives \(ArrayList<Integer>, not ArrayList<int>\).) Tj
+ET
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 614.89 499.28 75.00 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 669.89 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 673.39 Tm
+(7) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 673.39 Tm
+(Generics \(Basics\)) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 656.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 656.39 Tm
+(Generic classes \(class Box<T>\), generic methods, and the diamond operator <>.) Tj
+ET
+q
+0.940 0.976 1.000 rg
+60.00 629.39 475.28 20.50 re
+f
+Q
+BT
+/F1 9 Tf
+0.020 0.350 0.520 rg
+1 0 0 1 66.00 639.89 Tm
+(Why for DSA: Needed to read/write Collections cleanly and build reusable Node<T> or Pair<K, V> structures.) Tj
+ET
+q
+1.000 1.000 1.000 rg
+0.880 0.910 0.940 RG
+0.8 w
+48.00 465.39 499.28 147.50 re
+B
+Q
+q
+0.150 0.390 0.920 rg
+60.00 592.89 18.00 14.00 re
+f
+Q
+BT
+/F2 9 Tf
+1.000 1.000 1.000 rg
+1 0 0 1 66.00 596.39 Tm
+(8) Tj
+ET
+BT
+/F2 10.8 Tf
+0.060 0.090 0.160 rg
+1 0 0 1 85.00 596.39 Tm
+(Java Collections Framework \(JCF\) & Sorting Comparators) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 579.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 579.39 Tm
+(List: ArrayList, LinkedList | Stack/Deque: ArrayDeque \(preferred over legacy Stack\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 563.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 563.89 Tm
+(Queue / Heap: Queue, PriorityQueue \(min-heap & max-heap\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 548.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 548.39 Tm
+(Set: HashSet, LinkedHashSet, TreeSet | Map: HashMap, LinkedHashMap, TreeMap.) Tj
+ET
+BT
+/F2 9.5 Tf
+0.280 0.330 0.410 rg
+1 0 0 1 62.00 532.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 532.89 Tm
+(Sorting: Collections.sort\(\), Comparable<T> vs Comparator<T>, and basic lambdas \(\(a, b\) ->) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 519.39 Tm
+(Integer.compare\(a, b\)\).) Tj
+ET
+q
+0.996 0.988 0.910 rg
+60.00 479.89 475.28 33.00 re
+f
+Q
+BT
+/F1 9 Tf
+0.450 0.350 0.050 rg
+1 0 0 1 66.00 502.89 Tm
+(Note: Learn the usage API now so you can solve problems cleanly, then learn their internal implementations) Tj
+ET
+BT
+/F1 9 Tf
+0.450 0.350 0.050 rg
+1 0 0 1 66.00 490.39 Tm
+(during DSA.) Tj
+ET
+BT
+/F2 13.5 Tf
+0.120 0.230 0.540 rg
+1 0 0 1 48.00 449.39 Tm
+(2. Helpful Core Java \(Quick Read Before or Alongside DSA\)) Tj
+ET
+q
+0.800 0.840 0.900 RG
+0.8 w
+48.00 443.39 m 547.28 443.39 l S
+Q
+q
+0.970 0.980 0.990 rg
+0.850 0.880 0.920 RG
+0.8 w
+48.00 347.89 499.28 89.50 re
+B
+Q
+BT
+/F2 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 60.00 421.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 421.39 Tm
+(Exception Handling: try-catch-finally, throw vs throws, checked vs unchecked exceptions \(e.g.,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 407.89 Tm
+(NullPointerException, ArrayIndexOutOfBoundsException, StackOverflowError\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 60.00 392.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 392.39 Tm
+(Packages & Access Modifiers: organizing multi-file Java code properly \(public, private, protected,) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 378.89 Tm
+(default\).) Tj
+ET
+BT
+/F2 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 60.00 363.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.150 0.200 0.280 rg
+1 0 0 1 72.00 363.39 Tm
+(Fast I/O \(optional, mainly for competitive programming\): BufferedReader + StringTokenizer.) Tj
+ET
+BT
+/F2 13.5 Tf
+0.120 0.230 0.540 rg
+1 0 0 1 48.00 329.89 Tm
+(3. Java Topics You Can Safely Skip Until After DSA) Tj
+ET
+q
+0.800 0.840 0.900 RG
+0.8 w
+48.00 323.89 m 547.28 323.89 l S
+Q
+q
+0.996 0.950 0.950 rg
+0.960 0.780 0.780 RG
+0.8 w
+48.00 224.39 499.28 93.50 re
+B
+Q
+BT
+/F2 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 60.00 301.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 72.00 301.89 Tm
+(Multithreading & Concurrency \(Thread, ExecutorService, synchronized\)) Tj
+ET
+BT
+/F2 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 60.00 286.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 72.00 286.39 Tm
+(Streams API \(stream\(\).filter\(\).map\(\)\) & Functional Interfaces in depth) Tj
+ET
+BT
+/F2 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 60.00 270.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 72.00 270.89 Tm
+(File I/O & NIO, Serialization, Networking / Sockets) Tj
+ET
+BT
+/F2 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 60.00 255.39 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 72.00 255.39 Tm
+(Reflection, Annotations, Records / Sealed Classes \(good to know later, rarely needed in DSA\)) Tj
+ET
+BT
+/F2 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 60.00 239.89 Tm
+(-) Tj
+ET
+BT
+/F1 9.5 Tf
+0.480 0.120 0.120 rg
+1 0 0 1 72.00 239.89 Tm
+(JDBC, Swing / JavaFX, Maven / Gradle, Spring Boot) Tj
+ET
+BT
+/F2 13.5 Tf
+0.120 0.230 0.540 rg
+1 0 0 1 48.00 206.39 Tm
+(4. Suggested Next Note Progression \(After Note 6\)) Tj
+ET
+q
+0.800 0.840 0.900 RG
+0.8 w
+48.00 200.39 m 547.28 200.39 l S
+Q
+q
+0.930 0.990 0.960 rg
+48.00 153.89 499.28 42.00 re
+f
+Q
+q
+0.060 0.550 0.380 rg
+48.00 153.89 3.50 42.00 re
+f
+Q
+BT
+/F1 9.5 Tf
+0.030 0.350 0.240 rg
+1 0 0 1 60.00 181.39 Tm
+(Recommended Order: 7\) Arrays -> 8\) Strings & StringBuilder -> 9\) Bitwise & Math -> 10\) OOP -> 11\) Generics) Tj
+ET
+BT
+/F1 9.5 Tf
+0.030 0.350 0.240 rg
+1 0 0 1 60.00 167.89 Tm
+(& Wrapper Classes -> 12\) Collections & Comparators -> Start DSA) Tj
+ET
+BT
+/F1 8.5 Tf
+0.450 0.500 0.580 rg
+1 0 0 1 48.00 24.00 Tm
+(Java-DSA Study Notes | Core Java Roadmap Before DSA) Tj
+ET
+BT
+/F1 8.5 Tf
+0.450 0.500 0.580 rg
+1 0 0 1 492.28 24.00 Tm
+(Page 2 of 2) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 8 0 R >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000218 00000 n 
+0000000320 00000 n 
+0000000415 00000 n 
+0000007500 00000 n 
+0000007652 00000 n 
+0000014463 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+14615
+%%EOF
