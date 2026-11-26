@@ -1,0 +1,17 @@
+Time Complexity: tells us about growth in runtime of that algorithm wrt its input 
+Space complexity: tells us about the growth in ram memory since all algo reside in ram, wrt input 
+
+Time complexity is measured with regards to numbers of operations your code performs. These number of operations is converted to big Oh (O)
+For space complexity calculation, data and variables are taken in account 
+
+Big Oh notation: when an algo has a T.C of O(N), it means its run time is proportional to N: which means its linear 
+O(1): constant time complexity, meaning no matter what the input is, its T.C remains same 
+O(N²): quadratic time complexity, for every input, T.C gets squared 
+O(logN): 
+best one is O(1) -> O(logN) -> O(N) -> O(N²)
+
+example: for input of 100 million operations 
+1) O(1): constant, fixed T.C (fixed number of operations for any input)
+2) O(logN) = O(log₂(100 mil)) = 27 operations 
+3) O(N) = 100 mil operations 
+4) O(N²) = (100 mil operations)²
